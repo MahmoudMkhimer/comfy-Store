@@ -18,7 +18,7 @@ const cart_reducer = (state, action) => {
 				if (item.id == id + color) {
 					return {
 						...item,
-						amount: Math.min(max, item.amount + amount),
+						amount: Math.min(item.max, item.amount + amount),
 					};
 				} else return item;
 			});
