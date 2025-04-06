@@ -42,8 +42,5 @@ export const services = [
   },
 ]
 
-// export const products_url = 'https://course-api.com/react-store-products'
-export const products_url = 'http://localhost:3000/products';
-// export const products_url = 'https://strapi-store-server.onrender.com/api'
-
+export const products_url = 'https://course-api.com/react-store-products'
 export const single_product_url = `https://course-api.com/react-store-products/apit?id=`
